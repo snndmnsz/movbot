@@ -1,0 +1,133 @@
+.details__container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 16px 120px;
+  margin-bottom: 60px !important;
+}
+.return__button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  justify-self: start;
+  align-self: flex-start;
+  color: #8e95a9;
+  padding: 8px 14px;
+  margin: 25px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 15px;
+  gap: 3px;
+  border-radius: 10px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+.return__button:hover {
+  color: #ebeef5;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details__banner {
+  width: 100%;
+  max-height: 480px;
+  position: relative;
+}
+
+.details__banner .details__image {
+  border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.details__banner:after {
+  content: "";
+  border-radius: 40px;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(54, 44, 146, 0.4) 0%,
+    rgba(18, 98, 151, 0.4) 100%
+  );
+}
+
+.details__title {
+  position: absolute;
+  bottom: -45px;
+  z-index: 5;
+  left: 70px;
+  padding: 27px 60px;
+  background: rgba(32, 40, 62, 0.8);
+  backdrop-filter: blur(15px);
+  border-radius: 24px;
+  border: 2px solid rgba(255, 255, 255, 0.034);
+  font-weight: 600;
+  font-size: 30px;
+  color: #ebeef5;
+}
+
+.details__info {
+  margin-top: 120px;
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.details__info__poster {
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
+}
+.details__info__poster .poster {
+  width: 85%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.details__info__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.details__info__text__subTitle {
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ebeef5;
+}
+
+.details__info__text__description {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  color: #8e95a9;
+}
