@@ -4,7 +4,6 @@ import logo from "../../assets/images/image1.png";
 import Movie from "../../assets/icons/Movie";
 import Suggestions from "../../assets/icons/Suggestions";
 import Collections from "../../assets/icons/Collections";
-import Logout from "../../assets/icons/Logout";
 import Home from "../../assets/icons/Home";
 import Profile from "../../assets/icons/Profile";
 import { NavLink } from "react-router-dom";
