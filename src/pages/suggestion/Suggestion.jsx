@@ -4,13 +4,11 @@ import MovieCard from "../../components/movieCard/MovieCard";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-import poster from "../../assets/images/Shang-Chi-and-the-Legend-of-the-Ten-Rings-Releases-New 1.png";
-
 function Suggestion() {
   const url =
     "https://api.themoviedb.org/3/trending/movie/week?api_key=a71c5db8606b6db2fc26b6dc71ed1b52";
 
-  const [movies, setMovies] = React.useState([]);
+  const [movies, setMovies] = useState([]);
 
   useEffect(() => {
     axios({
