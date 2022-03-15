@@ -14,7 +14,7 @@ function Navbar() {
       <div className={styles.navbar__logo}>
         <img  src={logo} alt="logo" />
         <div className={styles.navbar__title}>MOVBOT</div>
-        <div className={styles.navbar__account}>FREE TRIAL</div>
+        <div className={styles.navbar__account}>FREE TIER</div>
       </div>
 
       <ul className={styles.navbar__list}>

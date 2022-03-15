@@ -26,7 +26,7 @@
   align-items: center;
   gap: 8px;
   color: rgb(113 63 187);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   flex-direction: row;
 }
@@ -38,6 +38,7 @@
 .footer__text {
   text-align: center;
   color: #767e94;
+  font-size: 10px;
   font-weight: 500;
   line-height: 35px;
 }

@@ -13,7 +13,7 @@ function Footer() {
         <p className={style.footer__text}>
           Movie recommendation website powered with machine learning.
           <br />
-          CSE 3044 Term Project created by Sinan Dumansiz and Kerem Kosif.
+          {/* CSE 3044 Term Project created by Sinan Dumansiz and Kerem Kosif. */}
           <br />
           Source code available on Github.
         </p>
