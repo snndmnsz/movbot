@@ -17,15 +17,15 @@
 @media (max-width: 1062px) {
   .navbar {
     flex-direction: column;
-    height: 130px;
+    height: 140px;
     justify-content: center;
   }
   .navbar__list {
     flex-direction: column;
+    margin-top: 15px;
   }
 }
 @media (max-width: 1062px) {
-
   /* .navbar__list {
     flex-direction: column !important;
     
@@ -102,7 +102,7 @@
   flex-direction: row;
   position: relative;
 }
-.navbar__item .navbar__link svg{
+.navbar__item .navbar__link svg {
   width: 19px;
   height: 19px;
 }
@@ -118,7 +118,7 @@
   flex-direction: row;
   position: relative;
 }
-.navbar__link__selected  svg{
+.navbar__link__selected svg {
   width: 19px;
   height: 19px;
 }
