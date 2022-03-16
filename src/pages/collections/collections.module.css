@@ -80,11 +80,11 @@
 }
 
 .collections__search__button {
-  padding: 11px 25px;
+  padding: 10px 25px;
   width: 100px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 13px;
   color: white;
   background: #7b6ef6;
   cursor: pointer;

@@ -14,7 +14,7 @@
   backdrop-filter: blur(10px);
   margin: 10px auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 1062px) {
   .navbar {
     flex-direction: column;
     height: 130px;
@@ -23,6 +23,13 @@
   .navbar__list {
     flex-direction: column;
   }
+}
+@media (max-width: 1062px) {
+
+  /* .navbar__list {
+    flex-direction: column !important;
+    
+  } */
 }
 .navbar__logo {
   justify-self: start;
@@ -85,7 +92,8 @@
 
 .navbar__item .navbar__link {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 600;
   color: #a8aebf;
   display: flex;
   justify-content: center;
@@ -94,9 +102,14 @@
   flex-direction: row;
   position: relative;
 }
+.navbar__item .navbar__link svg{
+  width: 19px;
+  height: 19px;
+}
 .navbar__link__selected {
+  font-weight: 600;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -104,6 +117,10 @@
   gap: 5px;
   flex-direction: row;
   position: relative;
+}
+.navbar__link__selected  svg{
+  width: 19px;
+  height: 19px;
 }
 
 .navbar__link__selected:after {
@@ -120,7 +137,7 @@
   color: #dadde6;
 }
 
-.profile {
-  height: 28px;
-  width: 28px;
-}
+/* .navbar__item  .navbar__link__username svg {
+  height: 28px !important;
+  width: 28px !important;
+} */
